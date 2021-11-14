@@ -4812,11 +4812,13 @@ export default () => {
 
         })))
 
-        let element = document.getElementById('phone')
-        let maskOptions = {
-            mask: '+{998}(00)000-00-00'
-        }
-        let mask = IMask(element, maskOptions)
+        try {
+            let element = document.getElementById('phone')
+            let maskOptions = {
+                mask: '+{998}(00)000-00-00'
+            }
+            let mask = IMask(element, maskOptions)
+        } catch (e) {}
 
         let elementEnroll = document.getElementById('phone-enroll')
         let maskOptionsEnroll = {
