@@ -3,9 +3,16 @@
 }
 
 .footer__inner {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-align: end;
+   -ms-flex-align: end;
    align-items: flex-end;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
    justify-content: space-between;
+   -ms-flex-wrap: wrap;
    flex-wrap: wrap;
    padding-top: 27px;
    padding-bottom: 40px;
@@ -21,13 +28,21 @@
 }
 
 .footer__phone {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
    align-items: center;
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
    justify-content: flex-end;
    margin-bottom: 18px;
    font-weight: 600;
    font-size: 16px;
    line-height: 31px;
+   -webkit-transition: 0.3s;
+   -o-transition: 0.3s;
    transition: 0.3s;
 
    svg {
@@ -36,8 +51,14 @@
 }
 
 .footer__socials {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
    align-items: center;
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
    justify-content: flex-end;
 }
 

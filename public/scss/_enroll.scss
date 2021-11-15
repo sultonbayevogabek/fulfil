@@ -5,8 +5,14 @@
    bottom: 0;
    left: 0;
    z-index: 4;
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-align: start;
+   -ms-flex-align: start;
    align-items: flex-start;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
    padding: 40px 10px;
    background-color: rgba(0, 0, 0, 0.2);

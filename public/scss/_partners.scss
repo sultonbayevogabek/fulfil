@@ -6,8 +6,14 @@
 }
 
 .partners__card {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
    align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
    height: 200px;
    border-left: 1px solid rgba(176, 215, 192, 0.5);
