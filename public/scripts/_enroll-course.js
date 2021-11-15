@@ -28,6 +28,7 @@ export default () => {
                    </div>
                </div>
             `
+            selectOne('body').style.overflow = 'hidden'
             closeEnrollModal()
             maskPhone()
             submitEnrollForm()
@@ -37,6 +38,7 @@ export default () => {
       function closeEnrollModal() {
          selectOne('.enroll-modal__close img').addEventListener('click', e => {
             modalWrapper.innerHTML = ''
+            selectOne('body').style.overflow = ''
          })
       }
 

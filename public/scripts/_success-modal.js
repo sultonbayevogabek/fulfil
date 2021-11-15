@@ -19,8 +19,11 @@ export default () => {
          </div>
       `
 
+      selectOne('body').style.overflow = 'hidden'
+
       selectOne('[data-close-modal]').addEventListener('click', e => {
          modalWrapper.innerHTML = ''
+         selectOne('body').style.overflow = ''
       })
    } catch (e) {}
 }
