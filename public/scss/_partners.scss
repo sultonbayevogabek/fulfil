@@ -19,3 +19,12 @@
    border-left: 1px solid rgba(176, 215, 192, 0.5);
    border-right: 1px solid rgba(176, 215, 192, 0.5);
 }
+
+.partners__logo {
+   opacity: 0.3;
+   transition: opacity 0.2s ease;
+
+   &:hover {
+      opacity: 1;
+   }
+}
